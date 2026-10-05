@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:ScrollView style="right: 0; position: absolute; height: 100%; width: 20%;"/>
+    <ui:VisualElement style="flex-grow: 1; top: 0; position: absolute; right: auto; left: auto; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+        <ui:Label text="CASH MONEY MOOLAH: 67$"/>
+    </ui:VisualElement>
+</ui:UXML>
