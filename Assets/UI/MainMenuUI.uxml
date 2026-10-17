@@ -4,12 +4,12 @@
         <ui:VisualElement style="flex-grow: 1;">
             <ui:VisualElement name="VerticalShit" style="flex-grow: 1; height: auto; align-items: center; justify-content: center; flex-direction: column; align-self: center;">
                 <ui:VisualElement name="TitleRow" style="flex-grow: initial; align-items: center; justify-content: center; flex-direction: row; height: 155px; position: relative; -unity-text-auto-size: none; bottom: auto; top: auto; flex-shrink: 1;">
-                    <ui:Label text="&lt;" name="LeftArrow" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Matcha%20Style.otf?fileID=12800000&amp;guid=cc8b624aa90cf5347aeace42e82478b0&amp;type=3#Matcha Style&quot;); font-size: 218px; color: rgb(199, 221, 157); -unity-text-align: middle-left;"/>
-                    <ui:Label text="MochiClicker " name="Title" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Matcha%20Style.otf?fileID=12800000&amp;guid=cc8b624aa90cf5347aeace42e82478b0&amp;type=3#Matcha Style&quot;); font-size: 200px; color: rgb(199, 221, 157); -unity-text-align: middle-left;"/>
-                    <ui:Label text="&gt;" name="RightArrow" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Matcha%20Style.otf?fileID=12800000&amp;guid=cc8b624aa90cf5347aeace42e82478b0&amp;type=3#Matcha Style&quot;); font-size: 218px; color: rgb(199, 221, 157); -unity-text-align: middle-left;"/>
+                    <ui:Label text="&lt;" name="LeftArrow" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Matcha%20Style.otf?fileID=12800000&amp;guid=cc8b624aa90cf5347aeace42e82478b0&amp;type=3#Matcha Style&quot;); font-size: 218px; color: rgb(245, 178, 194); -unity-text-align: middle-left; -unity-text-outline-width: 6px; -unity-text-outline-color: rgb(190, 146, 146);"/>
+                    <ui:Label text="MochiClicker " name="Title" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Matcha%20Style.otf?fileID=12800000&amp;guid=cc8b624aa90cf5347aeace42e82478b0&amp;type=3#Matcha Style&quot;); font-size: 200px; color: rgb(245, 178, 194); -unity-text-align: middle-left; -unity-text-outline-color: rgb(190, 146, 146); -unity-text-outline-width: 6px;"/>
+                    <ui:Label text="&gt;" name="RightArrow" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Matcha%20Style.otf?fileID=12800000&amp;guid=cc8b624aa90cf5347aeace42e82478b0&amp;type=3#Matcha Style&quot;); font-size: 218px; color: rgb(245, 178, 194); -unity-text-align: middle-left; -unity-text-outline-color: rgb(190, 146, 146); -unity-text-outline-width: 6px;"/>
                 </ui:VisualElement>
                 <ui:VisualElement name="Buttons" style="flex-grow: initial; margin-top: 48px; margin-bottom: 48px;">
-                    <ui:Instance template="MainMenuButton">
+                    <ui:Instance template="MainMenuButton" style="-unity-text-outline-width: 0;">
                         <AttributeOverrides element-name="Button" text="PLAY"/>
                     </ui:Instance>
                     <ui:Instance template="MainMenuButton">
@@ -19,7 +19,7 @@
                         <AttributeOverrides element-name="Button" text="QUIT"/>
                     </ui:Instance>
                 </ui:VisualElement>
-                <ui:Label text="™" name="TM" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Matcha%20Style.otf?fileID=12800000&amp;guid=cc8b624aa90cf5347aeace42e82478b0&amp;type=3#Matcha Style&quot;); font-size: 61px; position: absolute; top: 259px; left: auto; -unity-font-style: normal; -unity-text-align: upper-center; color: rgb(199, 221, 157); right: 70px;"/>
+                <ui:Label text="™" name="TM" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Matcha%20Style.otf?fileID=12800000&amp;guid=cc8b624aa90cf5347aeace42e82478b0&amp;type=3#Matcha Style&quot;); font-size: 61px; position: absolute; top: 217px; left: auto; -unity-font-style: normal; -unity-text-align: upper-center; color: rgb(245, 178, 194); right: 69px; -unity-text-outline-width: 3px; -unity-text-outline-color: rgb(190, 146, 146);"/>
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
